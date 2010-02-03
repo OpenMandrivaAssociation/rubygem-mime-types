@@ -3,7 +3,7 @@
 Summary:	MIME content type identification library for ruby
 Name:		rubygem-%{oname}
 Version:	1.16
-Release:	%mkrel 1
+Release:	%mkrel 2
 License:	GPLv2+ or Ruby or Perl Artistic License
 Group:		Development/Ruby
 URL:		http://%{oname}.rubyforge.org/
@@ -27,13 +27,14 @@ extensions.
 rm -rf %{buildroot}
 gem install --local --install-dir %{buildroot}/%{ruby_gemdir} --force %{SOURCE0}
 
+rm -rf %{buildroot}%{ruby_gemdir}/cache/%{oname}-%{version}.gem
+
 %clean
 rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root)
 %doc %{ruby_gemdir}/doc/%{oname}-%{version}
-%{ruby_gemdir}/cache/%{oname}-%{version}.gem
 %{ruby_gemdir}/gems/%{oname}-%{version}
 %{ruby_gemdir}/specifications/%{oname}-%{version}.gemspec
 
