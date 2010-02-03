@@ -4,7 +4,7 @@ Summary:	MIME content type identification library for ruby
 Name:		rubygem-%{oname}
 Version:	1.16
 Release:	%mkrel 1
-License:	MIT
+License:	GPLv2+ or Ruby or Perl Artistic License
 Group:		Development/Ruby
 URL:		http://%{oname}.rubyforge.org/
 Source0:	http://gems.rubyforge.org/gems/%{oname}-%{version}.gem
