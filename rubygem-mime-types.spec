@@ -10,7 +10,7 @@ URL:		http://%{oname}.rubyforge.org/
 Source0:	http://gems.rubyforge.org/gems/%{oname}-%{version}.gem
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	ruby-RubyGems
-Requires:	rubygem-hoe >= 1.8.3 ruby-rcov
+Requires:	rubygem-hoe >= 1.8.3 ruby-rcov rubygem-nokogiri
 BuildArch:	noarch
 
 %description
