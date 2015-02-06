@@ -3,7 +3,7 @@
 Summary:	MIME content type identification library for ruby
 Name:		rubygem-%{oname}
 Version:	1.19
-Release:	3
+Release:	4
 License:	GPLv2+ or Ruby or Perl Artistic License
 Group:		Development/Ruby
 URL:		http://%{oname}.rubyforge.org/
