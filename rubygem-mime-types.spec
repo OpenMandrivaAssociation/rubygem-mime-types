@@ -6,7 +6,7 @@ Version:	1.19
 Release:	4
 License:	GPLv2+ or Ruby or Perl Artistic License
 Group:		Development/Ruby
-URL:		http://%{oname}.rubyforge.org/
+URL:		https://%{oname}.rubyforge.org/
 Source0:	http://gems.rubyforge.org/gems/%{oname}-%{version}.gem
 BuildRequires:	ruby-RubyGems
 Requires:	rubygem-hoe >= 1.8.3
